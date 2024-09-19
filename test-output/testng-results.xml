@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-06T15:32:53 IST" name="Default suite" finished-at="2023-07-06T15:32:53 IST" duration-ms="44">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day3.APiCarLogin()[pri:0, instance:com.Test.Day3@12aba8be]" name="APiCarLogin" class="com.Test.Day3"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-07-06T15:32:53 IST" name="Default test" finished-at="2023-07-06T15:32:53 IST" duration-ms="44">
+      <class name="com.Test.Day3">
+        <test-method is-config="true" signature="BeforeSuit()[pri:0, instance:com.Test.Day3@12aba8be]" started-at="2023-07-06T15:32:53 IST" name="BeforeSuit" finished-at="2023-07-06T15:32:53 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuit -->
+        <test-method signature="APiCarLogin()[pri:0, instance:com.Test.Day3@12aba8be]" started-at="2023-07-06T15:32:53 IST" name="APiCarLogin" finished-at="2023-07-06T15:32:53 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APiCarLogin -->
+        <test-method signature="WebCarlogin()[pri:0, instance:com.Test.Day3@12aba8be]" started-at="2023-07-06T15:32:53 IST" name="WebCarlogin" finished-at="2023-07-06T15:32:53 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebCarlogin -->
+        <test-method signature="MobileCarLogin()[pri:0, instance:com.Test.Day3@12aba8be]" started-at="2023-07-06T15:32:53 IST" name="MobileCarLogin" finished-at="2023-07-06T15:32:53 IST" depends-on-methods="com.Test.Day3.WebCarlogin" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobileCarLogin -->
+      </class> <!-- com.Test.Day3 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
