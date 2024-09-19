@@ -14,4 +14,11 @@ public class Day5 {
 	public void second() {
 		System.out.println("Hello World Day 5");
 	}
+	
+
+	@Test
+
+	public void Third() {
+		System.out.println("Hello World Day 6");
+	}
 }
